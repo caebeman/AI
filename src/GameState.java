@@ -164,7 +164,7 @@ public final class GameState
      */
     public boolean illegalMove(int bin)
     {
-    	return (state[bin] == 0 || bin < 0 || bin == 6 || bin > 12);
+    	return (bin < 0 || bin == 6 || bin > 12 || state[bin] == 0);
     }
     
     /**

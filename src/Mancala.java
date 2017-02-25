@@ -18,7 +18,7 @@ public class Mancala
 {
 
     /** time limit each player has to decide on a move (default: 10 secs) **/
-    public static final int TIME_LIMIT  = 10;
+    public static final int TIME_LIMIT  = 1;
 
     /** number of stones with which to initialize bins (default: 4) **/
     public static final int NUM_STONES = 4;

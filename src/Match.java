@@ -120,6 +120,7 @@ public class Match {
 		}
 	    }
 	    catch (Exception e) {
+			System.err.println("Err in move thread");
 		e.printStackTrace();  //nasty, we shouldn't get here
 	    }
 
@@ -212,7 +213,8 @@ public class Match {
 		}
 	    }
 	    catch (Exception e) {
-		System.out.println(e.toString());
+	    	e.printStackTrace();
+//		System.out.println(e.toString());
 	    }
 	}
         
